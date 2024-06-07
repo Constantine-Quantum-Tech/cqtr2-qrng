@@ -32,7 +32,7 @@ pip install qiskit[visualization] qiskit-aer qiskit-ibm-runtime --upgrade
 ### Check Installation
 Check that you have everything correctly installed by running:
 ```bash
-    python -c "import qiskit; import qiskit_aer; import qiskit_ibm_runtime; print(qiskit.__version__); print(qiskit_aer.__version__); print(qiskit_ibm_runtime.__version__)"
+python -c "import qiskit; import qiskit_aer; import qiskit_ibm_runtime; print(qiskit.__version__); print(qiskit_aer.__version__); print(qiskit_ibm_runtime.__version__)"
 ``` 
 
 You should get an output that ressembles (with potentially slighly different versions):
